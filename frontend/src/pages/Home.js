@@ -19,7 +19,7 @@ function Home() {
         </div>
       </Col>
       <Col md={6} className="home__bg"> </Col>
-
+      
     </Row>
   )
 }
