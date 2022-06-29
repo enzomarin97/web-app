@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express(); //instanciando express
 
-//const rooms = ['general', 'games', 'futbol', 'study'];
+const rooms = ['general', 'games', 'futbol', 'study'];
 const cors = require('cors');
 const { Console } = require('console');
 
