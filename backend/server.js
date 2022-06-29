@@ -9,6 +9,8 @@ app.use(express.urlencoded({extended:true})); //para recibir data del frontend
 app.use(express.json());
 app.use(cors());
 
+require('./connection')
+
 //crear el server
 const server = require('http').createServer(app);
 const PORT = 5001;
