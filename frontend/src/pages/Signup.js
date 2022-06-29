@@ -82,13 +82,13 @@ function Signup() {
             </Form.Group>
             
             <Button variant="primary" type="submit">
-              {uploadingImg ? 'Signing you up ... ' : "Signup"}
+              {uploadingImg ? 'Signing you up ... ' : "Sign up"}
             </Button>
             <div className='py-4'>
               <p className='text-center'>
                 Already have an account ? <Link to="/login">Login</Link>
               </p>
-              
+
             </div>
           </Form >
         </Col>
